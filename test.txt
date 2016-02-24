@@ -1,0 +1,8 @@
+>Rosalind_56
+ATTAGACCTG
+>Rosalind_57
+AGACCTGCCG
+>Rosalind_58
+CCTGCCGGAA
+>Rosalind_59
+GCCGGAATAC
