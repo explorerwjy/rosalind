@@ -4,7 +4,6 @@ class rosalind_prob:
 		handle = open(handle)
 		self.seq = handle.readline().strip()
 		self.num = [float(num) for num in handle.readline().strip().split()]
-		#print self.num
 
 	def prob(self):
 		B = []
