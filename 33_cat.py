@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 #Given: An RNA string ss having the same number of occurrences of 'A' as 'U' 
 #and the same number of occurrences of 'C' as 'G'. The length of the string is at most 300 bp.
@@ -5,6 +6,14 @@
 #modulo 1,000,000.
 #na matching is noncrossing as long as there are not edges 
 
+=======
+# -*- coding: utf-8 -*-
+"""
+Catalan Numbers and RNA Secondary Structures
+Given: An RNA string ss having the same number of occurrences of 'A' as 'U' and the same number of occurrences of 'C' as 'G'. The length of the string is at most 300 bp.
+Return: The total number of noncrossing perfect matchings of basepair edges in the bonding graph of ss, modulo 1,000,000.
+"""
+from sys import argv
 from Bio import SeqIO
 
 class CAT():
@@ -40,4 +49,5 @@ if __name__ == '__main__':
 	seqlist = [str(record.seq) for record in SeqIO.parse(large_input,'fasta')]
 	sol = CAT(seqlist[0])
 	print sol.cat()%1000000
+
 
