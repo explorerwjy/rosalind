@@ -102,7 +102,7 @@ def process(seq_file_name,table_file_name):
 		findallseq(seqs,poly2)	
     print "--------------------------------------"
     """
-	for seq in seqs:
+    for seq in seqs:
         print seq
     seq_file.close()
     table_file.close()
